@@ -1,0 +1,69 @@
+body {
+color:rgb(207, 0, 0);
+background:rgba(0, 0, 0, 0.925);
+margin: 0px
+
+}
+header {
+    border-bottom: solid 3px rgb(211, 211, 211);
+    padding: 10px;
+    font-size: 50px;
+    font-family: "Bebas Neue", sans-serif;
+}
+section{
+    background: rgb(150, 0, 0);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin: 3%;
+}
+.chamada-video{
+    margin: 1%
+}
+
+h1{
+    color: aliceblue;
+    font-size: 30px;
+    font-family: "Fjalla One", sans-serif;
+}
+
+p{
+  color: rgb(255, 251, 251);
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+}
+
+img{
+    height: 200px;
+    opacity: 0.5;
+
+}
+
+img:hover{
+opacity: 1.0;
+border: solid 4px red;
+
+}
+.categoria-videos{
+
+    display: flex;
+    overflow-x: auto;
+    gap: 5px;
+    margin-top: 75px;
+}
+
+.seçao-videos{
+  background: black;  
+  border-top: solid 3px rgb(211, 211, 211) ;
+  
+ 
+}
+
+
+    
+
+    
